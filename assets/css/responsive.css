@@ -1,0 +1,145 @@
+
+/* Media Query for big screens between 2200px and 2560px */
+
+@media only screen and (min-width: 2200px) and (max-width: 2560px){
+   
+    .sub-fluid-5{
+        left: 521px;
+    }
+
+    .sub-fluid-6{
+        right: 521px;
+    }
+}
+/* Media Query for big screens between 1901px and 2199px */
+
+@media only screen and (min-width: 1901px) and (max-width: 2199px){
+   
+    .sub-fluid-5{
+        left: 3px;
+    }
+
+    .sub-fluid-6{
+        right: 300px;
+    }
+}
+
+/* Media Query for big screens between 1600px and 1900px */
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+    
+    .sub-fluid-5{
+        left: 200px;
+    }
+
+    .sub-fluid-6{
+        right: 200px;
+    }
+}
+/* Media Query for tablets  and small desktop screens between 768px and 1024px */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+   
+    .fluid-4{
+        height: fit-content;
+    }
+
+    .img{
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    .sub-fluid-5{
+        left: 9px;
+    }
+
+    .sub-fluid-6{
+        right: 9px;
+    }
+
+    .content > h4{
+        font-size: 20px;
+    }
+
+    .content > p{
+        font-size: 16px;
+    }
+}
+
+/* Media Query for small screens between 320px and 767px */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    p{
+        font-size: 16px !important;
+    }
+
+    .bold{
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+
+    .container-fluid{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .fluid-1{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .sub-div-3{
+        width: 100%;
+    }
+
+    .d-flex{
+        padding: 0 !important;
+    }
+
+    .fluid-4{
+        height: fit-content;
+    }
+
+    .fluid-3{
+        text-align: justify;
+    }
+
+    .sub-fluid-5, .sub-fluid-6{
+        position: static;
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .link-div-1{
+        right: -10px;
+    }
+
+    .link-div-2{
+        left: -10px;
+    }
+
+    .flex-2{
+        flex-direction: column;
+    }
+
+    .img{
+        max-width: 100% !important;
+    }
+
+    .img-div{
+        width: 100%;
+    }
+
+    .footer-flex{
+        flex-direction: column;
+    }
+
+    .recent-post{
+        margin-top: 25px;
+    }
+
+    .footer-img{
+        height: auto;
+    }
+   
+}
